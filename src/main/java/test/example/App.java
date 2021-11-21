@@ -24,10 +24,10 @@ public final class App {
             Gson gson = new Gson();
             // create a reader
             Reader reader = Files.newBufferedReader(Paths.get("freight.json"));
-            // convert JSON string to User object
+            // convert JSON string to ConsignmentValues object
             ConsignmentValues consignment = gson.fromJson(reader,ConsignmentValues.class);
             reader.close();
-            // print user object
+            // print Consignment object
             if(checkRange(consignment.rangeStart,consignment.rangeEnd,consignment.lastUsedIndex+1)){
                 String prefix=courierFixMatch(consignment.carrierName);
                 if(prefix!="No match"){
