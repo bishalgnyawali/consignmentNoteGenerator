@@ -13,3 +13,5 @@ click run button at right end top corner to execute the programme.
 
 Assumptions
   10 digits consignemnt index number is used to generate consignment note number.
+  
+  Note: json input is inside freight.json file
