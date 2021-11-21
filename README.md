@@ -1,4 +1,4 @@
-Steps to execute this Programme.
+Steps to execute this Programme, clone this project  and open in visual studio code.
 First install dependency extensions for this project in visual studio code. 
       
       a. Extension Pack for Java v0.18.6
