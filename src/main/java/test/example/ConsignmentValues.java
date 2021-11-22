@@ -8,8 +8,6 @@ public class ConsignmentValues {
     public int rangeEnd;
     public int lastUsedIndex;
 
-    
-    
     public ConsignmentValues() {
     }
 

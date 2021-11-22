@@ -9,6 +9,7 @@ import java.nio.file.Paths;
 /**
  * next Consignment Note Number Generator
  */
+
 public final class App {
     
     private App() {
